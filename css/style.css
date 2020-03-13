@@ -1,0 +1,92 @@
+
+
+/*
+
+    ====== navigation ======
+
+*/
+
+.bg {
+    background-color: black;
+}
+
+.navbar a{
+    color: #fff;
+}
+
+/*
+
+=========== top section ===========
+
+*/
+
+.tr{
+    height: 60px;
+}
+.top {
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+.grnb {
+    border-bottom: 2px solid green;
+}
+.ico{
+    margin-left: 10%;
+}
+
+.ico a{
+  color: black; 
+  font-size: 20px; 
+  margin-left: 10%;
+}
+
+
+/*
+
+=========== services ===========
+
+*/
+
+.serv {
+    margin-top: 4%;
+    margin-bottom: 6%;
+}
+.se {
+    margin-left: 6%;
+    font-weight: bold;
+}
+
+.se2 {
+    margin-left: 6%;
+    font-size: 20px;
+}
+
+.rw1{
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-bottom: 6%;
+}
+
+.cico a{
+    color: #373BFF;
+    font-size: 40px;
+    margin-left: 5%;
+}
+
+.cico h3{
+    margin-top: 5%;
+    margin-left: 5%;
+    margin-bottom: 5%;
+    font-weight: bold;
+    
+}
+.cico p {
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+
+/*
+
+===========  ===========
+
+*/
