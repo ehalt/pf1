@@ -1,0 +1,31 @@
+
+
+
+
+
+.input1 {
+    width: 100%;
+    height: 3rem;
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+.input1:hover{
+    -webkit-box-shadow: 0px 2px 5px 1px #3CD461; 
+    box-shadow: 0px 2px 5px 1px #3CD461;
+}
+
+.msg {
+    height: 15rem;
+}
+
+.btn {
+    padding: 10px 25px;
+    background-color: #3CD461;
+}
+
+.btn:hover{
+    -webkit-box-shadow: 0px 2px 5px 1px #3CD461; 
+    box-shadow: 0px 2px 5px 1px black;
+}
+

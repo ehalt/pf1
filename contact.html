@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/all.css">
     <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
     
@@ -17,14 +18,14 @@
     -->
     <section id="nav">
         <nav class="navbar navbar-expand-lg  bg-dark">
-            <a class="navbar-brand" href="#home">Torikus</a>
+            <a class="navbar-brand" href="index.html">Torikus</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span><i class="fas fa-bars text-light"></i></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
               <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                  <a class="nav-link" href="#home">Home </a>
+                  <a class="nav-link" href="index.html">Home </a>
                 </li>
                 <li class="nav-item">
                     <a href="about.html" class="nav-link">About</a>
@@ -55,7 +56,7 @@
             <div class="col-md-12">
                 <div class="top">
                     <h2 class="text-center">I Am <span class="grnb">Torikus Sadik</span></h2>
-                    <h2 class="text-center">A Digital <span class="grnb">Web Developer</span> Who Always Ready To Build Something</h2>
+                    <h2 class="text-center">A Digital <span class="grnb">web Developer</span>. Who Always Ready To Build Something</h2>
                     <h2 class="text-center"><span class="grnb">Great</span> That Make People's Lives <span class="grnb">Simple</span>.</h2>
                 </div>
                 <div class="row tr">
@@ -82,36 +83,45 @@
 
     <section id="service">
         <div class="serv">
-            <h2 class="se">Services</h2>
+            <h2 class="se">Contact</h2>
             <p class="se2"> Here some of my services.</p>
         </div>
         <div class="rw1">
-        <div class="row">
-                <div class="col-md-4">
-                    <div class="card cico" style="width:25rem; height:13rem;">
-                        <a href=""> <i class="fab fa-adobe"></i></a>
-                        <h3>Graphic Design</h3>
-                        <p> I know Adobe Photoshop and Illustrator and Adobe XD</p>
-                    </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <form action="MAILTO:torikussadikk@gmail.com" method="post" enctype="text/plain" class="contact-form" data-validate="Name is required">
+                        
+                        <div class="wrap-input">
+                            <input class="input1" type="text" name="name" placeholder="Name">
+                        </div>
+                        <div class="wrap-input1 validate-input" data-validate = "Valid email is required: ex@abc.xyz">
+                            <input class="input1" type="text" name="email" placeholder="Email">
+                            <span class="shadow-input1"></span>
+                        </div>
+        
+                        <div class="wrap-input1 validate-input" data-validate = "Subject is required">
+                            <input class="input1" type="text" name="subject" placeholder="Subject">
+                            <span class="shadow-input1"></span>
+                        </div>
+        
+                        <div class="wrap-input1 validate-input" data-validate = "Message is required">
+                            <textarea class="input1 msg" name="message" placeholder="Message"></textarea>
+                            <span class="shadow-input1"></span>
+                        </div>
+        
+                        <div class="container-contact1-form-btn">
+                            <button class="contact1-form-btn btn">
+                                <span>
+                                    Send Mail
+                                    <i class="fas fa-arrow-circle-right"></i>
+                                </span>
+                            </button>
+                        </div>
+                    </form>
                 </div>
-                <!--card 2-->
-                <div class="col-md-4">
-                    <div class="card cico" style="width:25rem; height:13rem;">
-                        <a href=""> <i class="far fa-file-word"></i></a>
-                        <h3>MS Office</h3>
-                        <p>I know Microsoft Office Well. I have done several projects using it.</p>
-                    </div>
-                </div>
-                
-                <!--card 3-->
-                <div class="col-md-4">
-                    <div class="card cico" style="width:25rem; height:13rem;">
-                        <a href=""> <i class="fas fa-desktop"></i></a>
-                        <h3>Web Development</h3>
-                        <p>I am sure that I am a good web developer. I have done several web projects.</p>
-                    </div>
-                </div>
-        </div>
+            </div>
+
         </div>
     </section>
 
@@ -120,77 +130,7 @@
         ============> Project section <==============
     -->
 
-    <section id="project">
-        <div class="serv">
-            <h2 class="se"> Projects</h2>
-            <p class="se2">Here are some projects That i have done already.</p>
-        </div>
-        <!--project 1-->
-        <div class="rw2">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="row">
-                        <img src="img/pro/1.jpg"  class="d-block w-100" alt="">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="protxt">
-                        <h2> <div class="bar">&nbsp;</div> Web Design <span class="sm">12 <a href="https://mrnobodyanon.github.io/p1/" target="_blank">February</a></span></h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--Project 2-->
-        <div class="rw2">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="protxt">
-                        <h2> <div class="bar">&nbsp;</div> Web Design <span class="sm">14 <a href="https://mrnobodyanon.github.io/p2/" target="_blank">February</a></span></h2>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="row">
-                        <img src="img/pro/2.jpg"  class="d-block w-100" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--projcet 3-->
-        <div class="rw2">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="row">
-                        <img src="img/pro/3.jpg"  class="d-block w-100" alt="">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="protxt">
-                        <h2> <div class="bar">&nbsp;</div> Web Design <span class="sm">15 <a href="https://mrnobodyanon.github.io/p3/" target="_blank">February</a></span></h2>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--project 4-->
-        <div class="rw2">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="protxt">
-                        <h2> <div class="bar">&nbsp;</div> Web Design <span class="sm">14 <a href="https://mrnobodyanon.github.io/p4/" target="_blank">February</a></span></h2>
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <div class="row">
-                        <img src="img/pro/4.jpg"  class="d-block w-100" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="row pros">
-            <div class="col-md-12 btn">
-                <a href="">More Projects</a>
-            </div>
-        </div>
-    </section>
+    
 
     <!--    
         =========> Ready Secton <==========
@@ -217,7 +157,7 @@
                     <li>
                         <a href="" target="_blank">Discord</a>
                         <a href="https://bd.linkedin.com/in/torikus-sadik-raihan-107101173" target="_blank">Linkdedin</a>
-                        <a href="https://github.com/mrnobodyanon" target="_blank">Github</a>
+                        <a href="https://github.com/mrnobodyanon/" target="_blank">Github</a>
                         <a href="https://twitter.com/TorikusS" target="_blank">Twitter</a>
                         <a href="https://www.instagram.com/torikus_/" target="_blank">Instagram</a>
                         <a href="https://www.facebook.com/tsr404" target="_blank">Facebook</a>
