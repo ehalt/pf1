@@ -24,8 +24,12 @@
     margin-top: 10%;
     margin-bottom: 10%;
 }
-.grnb {
-    border-bottom: 2px solid green;
+.top h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+.grnb{
+    color: #0DD461;
 }
 .ico{
     margin-left: 10%;
