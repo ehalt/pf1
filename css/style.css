@@ -63,12 +63,20 @@
     margin-right: 6%;
     margin-bottom: 6%;
 }
+.cico:hover{
+    background-color: #0DD461;
+    transition: .5s;
+}
 
 .cico a{
     color: #373BFF;
     font-size: 40px;
     margin-left: 5%;
 }
+.cico a:hover {
+    color : #fff;
+}
+
 
 .cico h3{
     margin-top: 5%;
@@ -77,9 +85,16 @@
     font-weight: bold;
     
 }
+.cico h3:hover{
+    color: #fff;
+}
+
 .cico p {
     margin-left: 5%;
     margin-bottom: 5%;
+}
+.cico p:hover{
+    color: #fff;
 }
 
 /*
