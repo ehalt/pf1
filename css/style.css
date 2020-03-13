@@ -123,6 +123,10 @@
     border: 1px solid black;
 }
 
+.btn a:hover{
+    background-color: #FF6347;
+    border:2px solid #0DD461;
+}
 /*
 
 =========== Ready section ===========
