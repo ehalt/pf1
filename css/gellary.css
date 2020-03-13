@@ -2,5 +2,13 @@
 
 .th img {
     width: 18rem;
-    height: 12rem;
+    height: 15rem;
+}
+
+.myph {
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.myph p{
+    font-size: 20px;
 }
