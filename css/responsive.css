@@ -2,7 +2,9 @@
 
 /*
 
-
+@media only screen and (max-width: 576px) {
+    
+}
 
 // Extra small devices (portrait phones, less than 576px)
 // No media query for `xs` since this is the default in Bootstrap
@@ -119,5 +121,27 @@
     ==============================================================================================
 
 */
+
+@media only screen and (max-width : 576px) {
+    .ttxt{
+        margin-left: -37px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .mgb{
+        width:98%;
+        margin-left:2%;
+        margin-right: 2%;
+
+    }
+}
+
+
+
+
+
+
+
 
 
