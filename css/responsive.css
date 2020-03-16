@@ -43,12 +43,23 @@
     }
 }
 
+@media only screen and (max-width: 576px) {
+    .ico{
+        width:100%;
+        margin-left: 0;
+    }
+}
+
 /* ========= home section ========= */
 
 @media only screen and (max-width: 576px) {
     .top {
-        margin-left: 3%;
-        margin-right: 3%;
+        margin-left: 4%;
+        margin-right: 4%;
+    }
+
+    .top h2{
+        font-size: 25px;
     }
 }
 
